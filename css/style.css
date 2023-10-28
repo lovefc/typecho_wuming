@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-size: 100%;
+    font-family: fantasy, "Comic Sans MS", "黑体", sans-serif;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.post {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #fff;
+}
+
+.post-title {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: rgba(184, 184, 184, 0.6);
+}
+
+.pagination {
+	display: inline-flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.pagination .prev,
+.pagination .next {
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    max-width: 600px;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.article-title {
+    font-size: 22px;
+}
+
+.article-meta {
+    font-size: 14px;
+    color: rgba(184, 184, 184, 0.6);
+}
+
+.article-content {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.article-content img {
+    width: 100%;
+    margin: 10px;
+}
