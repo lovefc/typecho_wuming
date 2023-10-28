@@ -98,5 +98,6 @@ h2 a {
 
 .article-content img {
     width: 100%;
-    margin: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
