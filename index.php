@@ -28,8 +28,12 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <?php endif; ?>
 </div>
 <div class="pagination">
+    <?php if($this->pageLink('上一页','prev')) { ?>
     <div class="prev"><?php $this->pageLink('上一页','prev');?></div>
+	<?php } ?>
+	<?php if($this->pageLink('下一页','next')) { ?>
     <div class="next"><?php $this->pageLink('下一页','next');?></div>
+	<?php } ?>
 </div>
 </main>
 <?php $this->need('page/footer.php'); ?>

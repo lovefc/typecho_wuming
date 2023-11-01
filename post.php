@@ -14,7 +14,6 @@
     </article>
 </div>
 <div class="pagination">
-    <div class="prev"></div>
     <div class="next"><a class="next" title="" href="#" onclick="return history.back();">返回</a></div>
 </div>
 </body>

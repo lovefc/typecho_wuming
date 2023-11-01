@@ -11,9 +11,7 @@
 	<meta name="layoutmode" content="standard">
 	<meta name="imagemode" content="force">
 	<meta name="wap-font-scale" content="no">
-	<?php if($this->options->favicon){ ?>
-    <link rel="icon" type="image/x-icon" href="<?php $this->options->favicon(); ?>">
-	<?php } ?>
+	<link rel="icon" type="image/x-icon" href="<?php $this->options->themeUrl('favicon.ico');?>">
     <title><?php $this->archiveTitle([
             'category' => _t('分类 %s 下的文章'),
             'search'   => _t('包含关键字 %s 的文章'),
